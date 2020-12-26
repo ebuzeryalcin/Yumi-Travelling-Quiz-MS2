@@ -28,5 +28,25 @@ const questions = [
         "answer2": "Norway",
         "answer2Total": "1"
     },
-    
+    {
+        "question": "What do you look for in a destination?",
+        "answer1": "Avesome photo opportunities",
+        "answer1Total": "1",
+        "answer2": "City Vibes",
+        "answer2Total": "3"
+    },
+    {
+        "question": "What do you look for in a hostel?",
+        "answer1": "located in a quiet, local area",
+        "answer1Total": "1",
+        "answer2": "Located near clubs and bars",
+        "answer2Total": "3"
+    },
+    {
+        "question": "Why do you travel?",
+        "answer1": "To eat food around the World",
+        "answer1Total": "3",
+        "answer2": "To Find Myself",
+        "answer2Total": "1"
+    }
 ]
