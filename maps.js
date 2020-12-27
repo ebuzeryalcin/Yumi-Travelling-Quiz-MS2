@@ -14,7 +14,20 @@ function initMap() {
         { lat: 51.516168365645285, lng: -0.12975831845500385 }, // England
     ]
 
+    //Location function, Stackoverflow.com
+    function getLocation() {
+        var url_string = window.location.href
+        var url = new URL(url_string);
+        var score = url.searchParams.get("score");
+        //Location will be given depending on score
+        if (score >= 7 && score <= 13) {
+            return naturalLocation
+        }
 
+        if (score >= 15 && score <= 21) {
+            return cityLocation
+        }
+    }
 
     //Google map with center location
     const map = new google.maps.Map(document.getElementById("map"), {
