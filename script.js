@@ -110,5 +110,15 @@ nextButton.addEventListener('click', function () {
     //once finished clear checked
     selectedOption.checked = false;
 
-
+    //checks if quiz is on the final question
+    if (currentQuestion == totalQuestions - 1) {
+        nextButton.textContent = 'Finish';
+    }
+    //If quiz is finished then results will be showen
+    if (currentQuestion == totalQuestions) {
+        return window.location = "http://127.0.0.1:5503/result.html" + "?score=" + maxScore
+    
+    }
+    // function to generate next question
+    generateQuestions(currentQuestion);
 });
