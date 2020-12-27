@@ -15,4 +15,14 @@ function initMap() {
     ]
 
 
+
+    //Google map with center location
+    const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 2.9,
+        center: { lat: 57.0000, lng: 9.0000 }
+
+    });
+    // Label of markers
+    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 }
