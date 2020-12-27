@@ -72,4 +72,11 @@ function generateQuestions(questionNumber) {
     var question = questions[questionNumber];
     var answer1Point = questions[questionNumber].answer1Total;
     var answer2Point = questions[questionNumber].answer2Total;
+
+    //Populates html elements, generates questions in array
+    questionEl.innerHTML = `${questionNumber + 1}. ${question.question}`
+    answer1.setAttribute('data-total', `${answer1Point}`);
+    answer2.setAttribute('data-total', `${answer2Point}`);
+    answer1.innerHTML = `${question.answer1}`
+    answer2.innerHTML = `${question.answer2}`
 }
