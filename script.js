@@ -51,7 +51,11 @@ const questions = [
     }
 ]
 
-
+//Counter and question identifier
+let currentQuestion = 0;
+let score = [];
+const totalQuestions = questions.length;
+let maxScore = 0;
 
 //variables which gives easy accessability to html elements by using querySelector
 var container = document.querySelector('.quiz-container');
