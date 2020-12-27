@@ -103,3 +103,9 @@ nextButton.addEventListener('click', function () {
 
     //Adds score to total score
     maxScore += answerScore;
+
+    //to incement the current question number
+    currentQuestion++;
+
+    //once finished clear checked
+    selectedOption.checked = false;
