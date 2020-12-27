@@ -71,3 +71,20 @@ function recommendation() {
         return result
     }
 }
+
+// 14-) Image function
+function getImage() {
+    var url_string = window.location.href
+    var url = new URL(url_string);
+    var score = url.searchParams.get("score")
+    var resim;
+
+        //Recommendation will be given depending on score
+        if (score >= 7 && score <= 13) {
+          
+            resim = "assets/images/doga1.jpg"
+        }
+
+
+
+}
