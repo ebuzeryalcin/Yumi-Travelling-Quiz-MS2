@@ -65,3 +65,11 @@ var answer2 = document.querySelector('.option2');
 var nextButton = document.querySelector('.next');
 var previousButton = document.querySelector('.previous');
 var result = document.querySelector('.result');
+
+//Function to generate question on screen
+function generateQuestions(questionNumber) {
+    //generates new question
+    var question = questions[questionNumber];
+    var answer1Point = questions[questionNumber].answer1Total;
+    var answer2Point = questions[questionNumber].answer2Total;
+}
