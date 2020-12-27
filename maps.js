@@ -33,10 +33,18 @@ function initMap() {
             label: labels[i % labels.length]
         });
     });
-    
+
     //Marker clusterer
     new MarkerClusterer(map, markers, {
         imagePath:
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
+}
+
+// 11-) Recommendation function
+function recommendation() {
+    var url_string = window.location.href
+    var url = new URL(url_string);
+    var score = url.searchParams.get("score")
+
 }
