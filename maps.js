@@ -77,14 +77,23 @@ function getImage() {
     var url_string = window.location.href
     var url = new URL(url_string);
     var score = url.searchParams.get("score")
-    var resim;
+    var resultimage;
 
         //Recommendation will be given depending on score
         if (score >= 7 && score <= 13) {
-          
-            resim = "assets/images/doga1.jpg"
+            resultimage = "assets/images/doga1.jpg"
         }
 
+        if (score >= 15 && score <= 21) {
+            resultimage = "assets/images/sehir1.jpg"
+        }
 
-
+        var img = document.querySelector(".resultImage")
+    img.setAttribute('src', `${resultimage}`);
 }
+
+var response = recommendation()
+getImage();
+
+// Generate score to result.html
+document.getElementById("myScore").innerHTML = response
