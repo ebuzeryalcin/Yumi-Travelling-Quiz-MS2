@@ -122,3 +122,13 @@ nextButton.addEventListener('click', function () {
     // function to generate next question
     generateQuestions(currentQuestion);
 });
+
+//eventlistener when previous button is clicked 
+previousButton.addEventListener('click', function () {
+    //Decrement question with one
+    currentQuestion--;
+    //removes last array value
+    score.pop();
+    //Generate the question
+    generateQuestions(currentQuestion);
+});
