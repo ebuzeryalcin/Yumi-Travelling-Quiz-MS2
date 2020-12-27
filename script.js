@@ -109,3 +109,6 @@ nextButton.addEventListener('click', function () {
 
     //once finished clear checked
     selectedOption.checked = false;
+
+
+});
