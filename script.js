@@ -94,3 +94,12 @@ nextButton.addEventListener('click', function () {
         alert('Please select your answer!');
         return;
     }
+
+    //Get value of selected radio
+    const answerScore = Number(selectedOption.nextElementSibling.getAttribute('data-total'));
+
+    //Add the answer score to the score array
+    score.push(answerScore);
+
+    //Adds score to total score
+    maxScore += answerScore;
