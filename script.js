@@ -83,3 +83,14 @@ function generateQuestions(questionNumber) {
 
 // This generate when the quiz page is loaded
 generateQuestions(currentQuestion);
+
+//eventlistener when next button is clicked
+nextButton.addEventListener('click', function () {
+    console.log('next')
+    //checks clicked radio button
+    const selectedOption = document.querySelector('input[type="radio"]:checked');
+    //Check if there is a radio input checked
+    if (!selectedOption) {
+        alert('Please select your answer!');
+        return;
+    }
