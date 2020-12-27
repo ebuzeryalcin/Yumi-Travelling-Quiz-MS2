@@ -47,4 +47,14 @@ function recommendation() {
     var url = new URL(url_string);
     var score = url.searchParams.get("score")
 
+    // Recommendation will be given depending on score
+     if (score >= 7 && score <= 13) {
+         var result = "Your latest Score = " + score + '<br>' + "You're a Nature lover! "
+        return result
+    }
+
+    if (score >= 15 && score <= 21) {
+        var result = "Your latest Score = " + score + '<br>' + "You're a City lover!  "
+        return result
+    }
 }
