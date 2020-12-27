@@ -80,3 +80,6 @@ function generateQuestions(questionNumber) {
     answer1.innerHTML = `${question.answer1}`
     answer2.innerHTML = `${question.answer2}`
 }
+
+// This generate when the quiz page is loaded
+generateQuestions(currentQuestion);
