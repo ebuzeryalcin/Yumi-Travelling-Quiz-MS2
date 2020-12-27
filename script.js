@@ -52,3 +52,12 @@ const questions = [
 ]
 
 
+
+//variables which gives easy accessability to html elements by using querySelector
+var container = document.querySelector('.quiz-container');
+var questionEl = document.querySelector('.question');
+var answer1 = document.querySelector('.option1');
+var answer2 = document.querySelector('.option2');
+var nextButton = document.querySelector('.next');
+var previousButton = document.querySelector('.previous');
+var result = document.querySelector('.result');
