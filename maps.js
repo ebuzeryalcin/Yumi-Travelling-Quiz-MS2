@@ -25,4 +25,18 @@ function initMap() {
     // Label of markers
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
+    //function to get locations
+    const markers = getLocation().map(function (location, i) {
+        console.log(getLocation)
+        return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+        });
+    });
+    
+    //Marker clusterer
+    new MarkerClusterer(map, markers, {
+        imagePath:
+            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    });
 }
