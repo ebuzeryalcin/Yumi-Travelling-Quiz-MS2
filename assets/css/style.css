@@ -97,3 +97,13 @@ h1{
   font-family: 'Indie Flower', cursive, sans-serif;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
+
+.next{
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(59, 75, 73);
+    border-color: rgb(7, 7, 7);
+    color: #fff;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
