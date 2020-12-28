@@ -19,7 +19,8 @@ body{
 h1{
     background-color:rgb(245, 244, 244);
 }
-                                                    /*navbar*/
+
+/*navbar*/
 .navbar{
     padding: .8rem;
   }
@@ -30,6 +31,7 @@ h1{
     font-size: 1.3em !important;
   }
 
+/*Container*/
 .quiz-container{
     text-decoration: none;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -118,7 +120,24 @@ h1{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
+/*Map*/
 #map {
   height: 600px;
   width: 100%;
 }
+
+/*Footer*/
+footer{
+    color: #fff;
+    padding-top: 2rem;
+  }
+
+.social a{
+    font-size: 2.5em;
+    padding: 2rem;
+    color: #fff;
+  }
+  
+.social a:hover{
+    color: #d5d5d5;
+  }
