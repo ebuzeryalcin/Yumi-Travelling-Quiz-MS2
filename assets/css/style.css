@@ -48,3 +48,12 @@ h1{
     width: 90%;
     margin: 2rem auto; 
 }
+
+.title{
+    font-family: 'Indie Flower', cursive, sans-serif;
+    text-align: center;
+    font-size: 25px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(131, 122, 128);
+}
