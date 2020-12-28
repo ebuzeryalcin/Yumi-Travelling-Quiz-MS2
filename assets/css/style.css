@@ -87,3 +87,13 @@ h1{
     font-family: 'Indie Flower', cursive, sans-serif;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
+
+.previous:hover{
+  width: 200px;
+  border-radius: 10px;
+  color: rgb(26, 9, 17);
+ background-color: #fff;
+   border-color: rgba(0, 0, 0, 0.2);
+  font-family: 'Indie Flower', cursive, sans-serif;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
