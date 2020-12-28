@@ -57,3 +57,13 @@ h1{
     text-transform: uppercase;
     color: rgb(131, 122, 128);
 }
+
+.startquizbutton{
+    width: 150px;
+    border-radius: 10px;
+    border-color: rgb(7, 7, 7);
+    background-color:rgb(59, 75, 73);
+    color: #fff;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
