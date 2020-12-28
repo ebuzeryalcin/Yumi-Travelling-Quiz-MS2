@@ -10,7 +10,7 @@ body{
     font-family: "Times New Roman", Times, serif, sans-serif;
     font-weight: 100;
     line-height: 1.7rem;
-    background-image:url("assets/images/uzay7.jpg");
+    background-image:url(../images/uzay7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 393px; 
