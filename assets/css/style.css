@@ -13,13 +13,13 @@ body{
     background-image:url("assets/images/uzay7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 393px; /*new*/
+    min-width: 393px; 
 }
 
 h1{
     background-color:rgb(245, 244, 244);
 }
-
+                                                    /*navbar*/
 .navbar{
     padding: .8rem;
   }
@@ -29,3 +29,22 @@ h1{
 .nav-link{
     font-size: 1.3em !important;
   }
+
+.quiz-container{
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 20px;  
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
+    line-height: 3rem; 
+    font-family: 'Indie Flower', cursive, sans-serif;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(245, 244, 244) ;
+    text-shadow: 1px 1px white;
+    border-radius: 10px 70px;
+    border: 10px solid rgb(59, 75, 73);
+    width: 90%;
+    margin: 2rem auto; 
+}
