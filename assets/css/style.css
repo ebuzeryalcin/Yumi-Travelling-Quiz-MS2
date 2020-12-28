@@ -13,9 +13,19 @@ body{
     background-image:url("assets/images/uzay7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-   min-width: 393px; /*new*/
+    min-width: 393px; /*new*/
 }
 
 h1{
     background-color:rgb(245, 244, 244);
 }
+
+.navbar{
+    padding: .8rem;
+  }
+.navbar-nav li{
+    padding-right: 20px;
+  }
+.nav-link{
+    font-size: 1.3em !important;
+  }
