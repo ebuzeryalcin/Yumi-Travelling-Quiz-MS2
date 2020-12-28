@@ -141,3 +141,15 @@ footer{
 .social a:hover{
     color: #d5d5d5;
   }
+
+#footerlogo{
+    height: 40px;
+    width: 120px;
+  }
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
