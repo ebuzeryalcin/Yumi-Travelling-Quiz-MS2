@@ -1,5 +1,5 @@
 // QUESTIONS with answers that I am using 
-const questions = [
+var questions = [
     {
         "question": "WHAT DOES ESCAPISM MEAN TO YOU?",
         "answer1": "Diving Into Local Culture",
@@ -49,22 +49,20 @@ const questions = [
         "answer2": "To Find Myself",
         "answer2Total": "1"
     }
-]
+];
 
 //Counter and question identifier
 let currentQuestion = 0;
 let score = [];
-const totalQuestions = questions.length;
+var totalQuestions = questions.length;
 let maxScore = 0;
 
 //variables which gives easy accessability to html elements by using querySelector
-var container = document.querySelector('.quiz-container');
 var questionEl = document.querySelector('.question');
 var answer1 = document.querySelector('.option1');
 var answer2 = document.querySelector('.option2');
 var nextButton = document.querySelector('.next');
 var previousButton = document.querySelector('.previous');
-var result = document.querySelector('.result');
 
 //Function to generate question on screen
 function generateQuestions(questionNumber) {
@@ -74,11 +72,11 @@ function generateQuestions(questionNumber) {
     var answer2Point = questions[questionNumber].answer2Total;
 
     //Populates html elements, generates questions in array
-    questionEl.innerHTML = `${questionNumber + 1}. ${question.question}`
+    questionEl.innerHTML = `${questionNumber + 1}. ${question.question}`;
     answer1.setAttribute('data-total', `${answer1Point}`);
     answer2.setAttribute('data-total', `${answer2Point}`);
-    answer1.innerHTML = `${question.answer1}`
-    answer2.innerHTML = `${question.answer2}`
+    answer1.innerHTML = `${question.answer1}`;
+    answer2.innerHTML = `${question.answer2}`;
 }
 
 // This generate when the quiz page is loaded
@@ -86,9 +84,9 @@ generateQuestions(currentQuestion);
 
 //eventlistener when next button is clicked
 nextButton.addEventListener('click', function () {
-    console.log('next')
+    console.log('next');
     //checks clicked radio button
-    const selectedOption = document.querySelector('input[type="radio"]:checked');
+    var selectedOption = document.querySelector('input[type="radio"]:checked');
     //Check if there is a radio input checked
     if (!selectedOption) {
         alert('Please select your answer!');
@@ -96,7 +94,7 @@ nextButton.addEventListener('click', function () {
     }
 
     //Get value of selected radio
-    const answerScore = Number(selectedOption.nextElementSibling.getAttribute('data-total'));
+    var answerScore = Number(selectedOption.nextElementSibling.getAttribute('data-total'));
 
     //Add the answer score to the score array
     score.push(answerScore);
@@ -116,7 +114,7 @@ nextButton.addEventListener('click', function () {
     }
     //If quiz is finished then results will be showen
     if (currentQuestion == totalQuestions) {
-        return window.location = "http://127.0.0.1:5503/result.html" + "?score=" + maxScore
+        return window.location = "http://127.0.0.1:5503/result.html" + "?score=" + maxScore;
     
     }
     // function to generate next question
