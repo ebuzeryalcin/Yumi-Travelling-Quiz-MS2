@@ -114,8 +114,9 @@ nextButton.addEventListener('click', function () {
     }
     //If quiz is finished then results will be showen
     if (currentQuestion == totalQuestions) {
-        return window.location = "http://127.0.0.1:5503/result.html" + "?score=" + maxScore;
-    
+        //Adding MaxScore to localstorage
+        localStorage.setItem("scoreStorage", maxScore);
+        return window.location.assign("result.html");
     }
     // function to generate next question
     generateQuestions(currentQuestion);
