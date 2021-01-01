@@ -16,9 +16,7 @@ function initMap() {
 
     //Location function, Stackoverflow.com
     function getLocation() {
-        var url_string = window.location.href;
-        var url = new URL(url_string);
-        var score = url.searchParams.get("score");
+        var score = localStorage.getItem("scoreStorage");
         //Location will be given depending on score
         if (score >= 7 && score <= 13) {
             return naturalLocation;
@@ -56,13 +54,12 @@ function initMap() {
 
 // 11-) Recommendation function
 function recommendation() {
-    var url_string = window.location.href;
-    var url = new URL(url_string);
-    var score = url.searchParams.get("score");
+    var score = localStorage.getItem("scoreStorage");
+
 
     // Recommendation will be given depending on score
-     if (score >= 7 && score <= 13) {
-         var result = "Your latest Score = " + score + '<br>' + "You're a Nature lover! ";
+    if (score >= 7 && score <= 13) {
+        var result = "Your latest Score = " + score + '<br>' + "You're a Nature lover! ";
         return result;
     }
 
@@ -74,21 +71,20 @@ function recommendation() {
 
 // 14-) Image function
 function getImage() {
-    var url_string = window.location.href;
-    var url = new URL(url_string);
-    var score = url.searchParams.get("score");
+    var score = localStorage.getItem("scoreStorage");
+
     var resultimage;
 
-        //Recommendation will be given depending on score
-        if (score >= 7 && score <= 13) {
-            resultimage = "assets/images/doga1.jpg";
-        }
+    //Recommendation will be given depending on score
+    if (score >= 7 && score <= 13) {
+        resultimage = "assets/images/doga1.jpg";
+    }
 
-        if (score >= 15 && score <= 21) {
-            resultimage = "assets/images/sehir1.jpg";
-        }
+    if (score >= 15 && score <= 21) {
+        resultimage = "assets/images/sehir1.jpg";
+    }
 
-        var img = document.querySelector(".resultImage");
+    var img = document.querySelector(".resultImage");
     img.setAttribute('src', `${resultimage}`);
 }
 
