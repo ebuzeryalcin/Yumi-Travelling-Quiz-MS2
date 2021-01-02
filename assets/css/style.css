@@ -13,7 +13,7 @@ body{
     background-image:url(../images/uzay7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 393px; 
+    min-width: 100%; 
 }
 
 h1{
