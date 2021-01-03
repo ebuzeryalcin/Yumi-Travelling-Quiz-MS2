@@ -41,3 +41,24 @@ The purpose of this website is to help users to get recommendations about travel
 The introduction and the start quiz button on the first page is centered and ease to access for users. The quiz page is intuitive and logical
 so users don't gets interuppted of unneccessary content. Result page gives clear information about the score and treavel recommendations.
 I wanted to give an easy and understandable experience for users. 
+
+### User Stories
+
+Users:
+- As a user, I'd like to quick quiz introduction, why I should try out the quiz. 
+- As a user, I'd like to find travel recommendations depending on my score.
+- As a user, I'd like to find multiple travel destiantions.
+- As a user, I'd like to know what kind of traveller I am.
+- As a user, I'd like to make a quiz to find out what kind of travel would suit me.
+- As a user, I'd like to see a map where I can travel depending on my score.
+- As a user, I'd like to know information about the site owner.
+- As a user, I'd like to connect to site owner by social media. 
+
+Content creator:
+- As a content creator, I'd like to give introduction, why users should try out the quiz.
+- As a content creator, I'd like to attract people to my site so they can enjoy using my site and quickly get travel recommendations. 
+- As a content creator, I'd like to promote my site as a fun and proffessional page.
+- As a content creator, I'd like to promote my quiz so people can find out what kind of traveler they are. 
+- As a content creator, I'd like to show a map where users can travel depending on their scores.
+- As a content creator, I'd like that site visitors have easy access to connect with me through social media.
+- As a content creator, I want to show that users can trust my services with a logical quiz.
