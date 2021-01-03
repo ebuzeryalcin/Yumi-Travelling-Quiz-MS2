@@ -29,3 +29,15 @@ If the quiz have not been finished the result page will not show any score and w
 This website is built using HTML, CSS, Bootstrap and JavaScript. This is the website, [Yumi Travelling Quiz](https://ebuzeryalcin.github.io/Yumi-Travelling-Quiz-MS2/).
 
  ***
+
+ ## UX
+
+For page colors I used custom colors and changed for example button colors of my own favour. I think dark gray goes great with white and I
+wanted to have popping background image which went looking great with all other colors I used on the pages.  
+ 
+For the logo I used [logomakr.com](https://logomakr.com/) which is a simple and free website. 
+
+The purpose of this website is to help users to get recommendations about travel destiantions depending on what type of traveller they are. 
+The introduction and the start quiz button on the first page is centered and ease to access for users. The quiz page is intuitive and logical
+so users don't gets interuppted of unneccessary content. Result page gives clear information about the score and treavel recommendations.
+I wanted to give an easy and understandable experience for users. 
