@@ -84,3 +84,13 @@ call map and markers, which is in the maps.js file.
 I have not restricted the use of Google maps API in the Google Cloud Platform. This can be changed in future on the same platform. 
 ![Screenshot of the restrictions page in Google Maps API](assets/images/restrictions_api.PNG)
 
+Below is as example of the website. You can see:
+1. The Start quiz button to redirect to the Quiz page.
+2. The warning popup message the user receives when no radio button have been clicked.
+3. The next button to generate next question.
+4. The finish button when there is no next question to generate.
+5. The result page which is displayed when the quiz is finished.
+6. The result page which shows latest score and image depending on the result.
+7. The google map which shows three locations depending on whether you are a nature lover or a city lover.
+
+![Example of how to use website site](assets/images/webpage-example.gif)
