@@ -62,3 +62,9 @@ Content creator:
 - As a content creator, I'd like to show a map where users can travel depending on their scores.
 - As a content creator, I'd like that site visitors have easy access to connect with me through social media.
 - As a content creator, I want to show that users can trust my services with a logical quiz.
+
+### Wireframes
+
+To make my Wireframe I used moqups.com. [Click here to show my Wireframe.](https://app.moqups.com/fxJmWRzVm7/view/page/ad64222d5)
+
+![Responsive image with different monitors](assets/images/responsive.PNG)
