@@ -84,7 +84,7 @@ call map and markers, which is in the maps.js file.
 I have not restricted the use of Google maps API in the Google Cloud Platform. This can be changed in future on the same platform. 
 ![Screenshot of the restrictions page in Google Maps API](assets/images/restrictions_api.PNG)
 
-Below is as example of the website. You can see:
+Below is an example of the website. You can see:
 1. The Start quiz button to redirect to the Quiz page.
 2. The warning popup message the user receives when no radio button have been clicked.
 3. The next button to generate next question.
@@ -94,3 +94,12 @@ Below is as example of the website. You can see:
 7. The google map which shows three locations depending on whether you are a nature lover or a city lover.
 
 ![Example of how to use website site](assets/images/webpage-example.gif)
+
+### Features Left to Implement
+
+Google API has a long list of data available and possibility to give more features to the project. Maps API can be custoized and gives static
+and dynamic maps, with street view imagery and 360 degree views. I used this API with markers and marker clustering. It would be great to add 
+API for locating different places to visit in cities. Or I could add nature reserves with information about them. I could also generate more
+locations on the map and group more detailed clusters and even group more interesting locations near to each other which could be more attractive
+for users who wants to see more than one place in one vacation. 
+
