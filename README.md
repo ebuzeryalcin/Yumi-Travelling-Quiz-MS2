@@ -97,9 +97,22 @@ Below is an example of the website. You can see:
 
 ### Features Left to Implement
 
-Google API has a long list of data available and possibility to give more features to the project. Maps API can be custoized and gives static
+Google API has a long list of data available and possibility to give more features to the project. Maps API can be customized and gives static
 and dynamic maps, with street view imagery and 360 degree views. I used this API with markers and marker clustering. It would be great to add 
 API for locating different places to visit in cities. Or I could add nature reserves with information about them. I could also generate more
 locations on the map and group more detailed clusters and even group more interesting locations near to each other which could be more attractive
 for users who wants to see more than one place in one vacation. 
 
+Future implementations would be Google Places API which gives the opportunity to help users to discover places in more detail. This API has a
+rich location data about phone numbers, addresses and more. Further more I can add shopping API to match score with even more content. For 
+example if a users result matches loving nature the shopping API could give suggestions about useful things to buy before travelling. The
+nature lover could be suggested a sleeping bag, a tent and other different camping products. 
+
+In addition to the suggestions above I could add an flight API to show suggestions about flights that really take off to places depending on 
+the result the user get. Maybe the API could also suggest a multi travel vacation, travelling to more than one location during the same vacation.
+
+I would also like to add more code so it can get more data and provide suggestions in more detail. Say that a person's result is city lover, 
+but the person likes more historicaly rich cities rather than modern cities that do not have a long history. I would like the quiz to retrieve 
+more data so it can return for example that the user loves cities with a wide history.
+
+***
