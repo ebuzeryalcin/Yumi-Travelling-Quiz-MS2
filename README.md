@@ -68,3 +68,19 @@ Content creator:
 To make my Wireframe I used moqups.com. [Click here to show my Wireframe.](https://app.moqups.com/fxJmWRzVm7/view/page/ad64222d5)
 
 ![Responsive image with different monitors](assets/images/responsive.PNG)
+
+***
+
+## Features
+ 
+### Existing Features
+
+[Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview?_ga=2.246367876.1606386993.1604865013-774398906.1604748970) & 
+[Markers on the map](https://developers.google.com/maps/documentation/javascript/markers) with [Marker clustering feature](https://developers.google.com/maps/documentation/javascript/marker-clustering): 
+I have utilized the Google Maps API, added marker function and marker clustering function on the map. The marker is a type of overlay and 
+identifies location on the map. Marker clustering combines number of locations in near area. Depending on score the Javascript function will
+call map and markers, which is in the maps.js file. 
+
+I have not restricted the use of Google maps API in the Google Cloud Platform. This can be changed in future on the same platform. 
+![Screenshot of the restrictions page in Google Maps API](assets/images/restrictions_api.PNG)
+
