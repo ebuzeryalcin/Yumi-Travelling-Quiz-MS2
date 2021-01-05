@@ -77,11 +77,11 @@ function getImage() {
 
     //Recommendation will be given depending on score
     if (score >= 7 && score <= 13) {
-        resultimage = "assets/images/doga1.jpg";
+        resultimage = "assets/images/doga1.webp";
     }
 
     if (score >= 15 && score <= 21) {
-        resultimage = "assets/images/sehir1.jpg";
+        resultimage = "assets/images/sehir1.webp";
     }
 
     var img = document.querySelector(".resultImage");
