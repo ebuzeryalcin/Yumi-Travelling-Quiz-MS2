@@ -116,3 +116,16 @@ but the person likes more historicaly rich cities rather than modern cities that
 more data so it can return for example that the user loves cities with a wide history.
 
 ***
+
+## Technologies Used
+
+These following languages, frameworks and libraries was used to build the website:
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - Has been used to build the content of the website.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Has been used to style the content of the website.
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript) - Has been used to add interactivity to the site by utilising the data returned and by calling API depending on score.
+- [Bootstrap](https://getbootstrap.com/) - Has been used to build sections in html pages, creating buttons and which also gives flexibility to modify style depending on desire. 
+- [FontAwesome](https://fontawesome.com/) - Has been used to add icons. Mainly used to add social media icons. 
+- [Google Fonts](https://fonts.google.com/) - Has been used to style texts on my website, great tool with many fonts to choose between. 
+- [Favicon](https://www.favicon-generator.org/) - Has been used to make my own custom favicon which matches my page logo. 
+
+***
