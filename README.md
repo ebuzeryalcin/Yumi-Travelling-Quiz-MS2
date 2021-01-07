@@ -139,7 +139,7 @@ Here are the tests I have made on my webpage:
 1.  All of my code have been validated to make sure there are no errors. My HTML code have been validated through [W3 HTML Validator](https://validator.w3.org/).
 The CSS code have been validated through [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) and the Javascript through [JSHint](https://jshint.com/).
 
-### Html
+## Html
 -	Changed place of script to improve performance from head to bottom of body.
 -	I was suggested by Lighthouse tools to change format of my images from .png to webp. so the page could load faster. I did manage to find an online converter. After converting my images to .webp I could add them to my project.  
 -	Lighthouse suggested me to add aria-labels to button improve accessibility of my website so I added aria-labels to my buttons in my html pages. 
@@ -150,3 +150,13 @@ The CSS code have been validated through [Jigsaw CSS Validator](https://jigsaw.w
 -	All my buttons is working corectly. I tested each button on every Html page and no error was shown.
 -	Google maps API on result page works fine. I was able to see marked locations, navigate and view around in the map, change to satellite and zoom in and out.
 -	Social Media links have been tested.  I clicked each link individually which opened a new browser. Every link was working. 
+
+## CSS
+-	Lighthouse tools suggested me to remove unused css style. I opened inspect in google chrome so I could inspect unused css code. I started to record the page and there was temporary unused css style. But I noticed that when for example the index.html page was recorded coverage detected that styles for quiz.html and result.html page was not used at that point of recording. The same things occured when I recorded another html page. Since I am using all css styling rules I did not delete any style from style.css. 
+-	I ran my CSS code through [Auto Prefixer CSS](https://autoprefixer.github.io)
+and was suggested to add soem webkits which were missing. Added neccessary style to my CSS code. 
+-	Fixed the background image issue which wouldn’t show in my html pages. I used a relative link for my background image. Because I was inside my css file, the code was looking for the image file at the same place. To solve this issue I needed to go back, added two dots to its path to find my actual image folder and then find my background image. This is how it looked when finished: url(../images/uzay7.jpg), note that the image file is converted to .webp now. 
+-	My webpage were overflowing because of style in background image in css. I was able to fix this issue by changing min-width style 100%. The overflowing issue was solved.
+
+### Latest
+-	I ran my css code through [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) and no error was found. 
