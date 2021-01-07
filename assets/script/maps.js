@@ -1,5 +1,13 @@
 // Google maps function
 function initMap() {
+    var score = localStorage.getItem("scoreStorage");
+    //function which return to quiz page if test has not been made
+    if (!score) {
+        var img = document.querySelector(".resultImage");
+        img.setAttribute('src', 'assets/images/yumi_result.webp');
+        document.getElementById("myScore").innerHTML = "Yumi don't have enough data to give you recommendations. Go back to Quiz!";
+        return;
+    }
 
     // Locations that will show depending on score
     var naturalLocation = [
@@ -17,15 +25,6 @@ function initMap() {
     //Location function, Stackoverflow.com
     function getLocation() {
         var score = localStorage.getItem("scoreStorage");
-        //function which return to quiz page if test has not been made
-        if (!score) {
-            document.getElementById("resultImage").style.visibility = "hidden";
-            document.getElementById("myScore").innerHTML = "Yumi don't have enough data to give you recommendations.";
-            alert("Yumi: Oops! You forgot to make the Quiz! Click OK and you will be redirected after 5 seconds.")
-            setTimeout(function(){
-            window.location.href = "quiz.html";
-            }, 5000);
-        }
         //Location will be given depending on score
         if (score >= 7 && score <= 13) {
             return naturalLocation;
@@ -47,7 +46,6 @@ function initMap() {
 
     //function to get locations
     var markers = getLocation().map(function (location, i) {
-        console.log(getLocation);
         return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
