@@ -45,21 +45,21 @@ I wanted to give an easy and understandable experience for users.
 ### User Stories
 
 Users:
-- As a user, I'd like to quick quiz introduction, why I should try out the quiz. 
+- As a user, I'd like to have a quick introduction about Quiz, why I should try out the quiz. 
 - As a user, I'd like to find travel recommendations depending on my score.
-- As a user, I'd like to find multiple travel destiantions.
+- As a user, I'd like to be recommended about multiple travel destiantions.
 - As a user, I'd like to know what kind of traveller I am.
 - As a user, I'd like to make a quiz to find out what kind of travel would suit me.
-- As a user, I'd like to see a map where I can travel depending on my score.
+- As a user, I'd like to see a map with markes showing where I can travel depending on my score.
 - As a user, I'd like to connect to site owner through social media. 
 
 Content creator:
-- As a content creator, I'd like to give introduction, why users should try out the quiz.
-- As a content creator, I'd like to attract people to my site so they can enjoy using my site and quickly get travel recommendations. 
-- As a content creator, I'd like to promote my site as a fun and proffessional page.
+- As a content creator, I'd like to give an quick introduction, why users should try out the quiz.
+- As a content creator, I'd like to attract users by having an enjoyable quiz, giving recommendations fast. 
+- As a content creator, I'd like to promote my website as a fun and proffessional page.
 - As a content creator, I'd like to promote my quiz so people can find out what kind of traveller they are. 
-- As a content creator, I'd like to show a map where users can travel depending on their scores.
-- As a content creator, I'd like that site visitors have easy access to connect with me through social media.
+- As a content creator, I'd like to show a map with locations users can travel to depending on their scores.
+- As a content creator, I'd like website visitors to have easy access to connect with me through social media.
 - As a content creator, I want to show that users can trust my services with a logical quiz.
 
 ### Wireframes
@@ -78,10 +78,10 @@ To make my Wireframe I used moqups.com. [Click here to show my Wireframe.](https
 
 - Webpage consisting of 3 html pages:
 - Home Page - Introducing the Quiz, including a button redirecting to the Quiz Page. 
-- Quiz Page - Simple and intuitive Quiz consisting 7 questions. Radio button to be clicked to go to next question. A previous, a next button and a Finish button to load previous or next question. Finish question visible in last question, redirecting to Result Page. 
-- Result Page - Displays score and map - Score: Depending on quiz result score shows what type of traveller users are and displays an image, also depending on quiz result. Interactive Map: Displays a google map with 3 travel location recommendations, depending on what kind of traveller users are.  
-- Interactive Map - This map has been created using Google Maps API and tools showing location with markers. The map includes navigation and view around, change to satellite and zoom in and out functions.
-- Social Media - Social media icons showing in footer section in every html page.
+- Quiz Page - Simple and intuitive Quiz consisting of 7 questions. Radio button to be clicked to go to next question. A previous, a next button and a Finish button to load previous or next question. Finish button visible in last question, redirecting to Result Page. 
+- Result Page - Displays score and map - Score: Depending on result a score and an image will be shown, displaying what type of traveller users are. Interactive Map: Displays a google map with 3 travel location recommendations each, depending on what kind of traveller users are.  
+- Interactive Map - This map has been created using Google Maps API and tools showing location with markers. The map includes navigation, view around in streets with Pegman, change to satellite and zoom in and out functions.
+- Social Media - Social media link icons showing in footer section in every html page.
 - Responsive webpage - Working in multiple devices and screen sizes, responsive to different types of screen sizes.
 
 [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview?_ga=2.246367876.1606386993.1604865013-774398906.1604748970) & 
