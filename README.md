@@ -190,3 +190,6 @@ I used the same method. Finally I added an setTimeout() function redirecting to 
 Tested this solution and it worked, the issue was solved. 
 ![Screenshot of Undefined issue in result.html](assets/images/result_undefined.PNG)
 
+### Latest
+
+-   

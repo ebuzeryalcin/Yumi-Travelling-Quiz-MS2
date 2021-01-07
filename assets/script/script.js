@@ -66,6 +66,12 @@ var previousButton = document.querySelector('.previous');
 
 //Function to generate question on screen
 function generateQuestions(questionNumber) {
+    //function to hide and show previous button when first question is generated
+    if (questionNumber === 0) {
+        previousButton.style.visibility = 'hidden';
+    }else{
+        previousButton.style.visibility = 'visible';
+    }
     //generates new question
     var question = questions[questionNumber];
     var answer1Point = questions[questionNumber].answer1Total;
