@@ -212,3 +212,11 @@ an else statement to ,previousButton.style.visibility = 'visible', to make the P
 answered. This solution to hide Previous button in first question and make it visible thereafter worked and from an user experience angle 
 the quiz buttons is more logic now. This disturbing issue was then solved. 
 ![Example of previous button issue](assets/images/previous_button.gif)
+- New fix result.html: Previous fix in result.html where score was showing undefined. Redirections and general code were showing error in
+console. Previous fix seemed to work but in reality things got complicated and confusing. I decided to make a new fix to clean things up. 
+I deleted previous code in getLocation() function and added new code in initMap() function, in maps.js. I then moved localStorage.getItem("scoreStorage")
+in initMap() function to then add an if statement, and added an website logo image which will show when there is no score coming from quiz. 
+Finally I added a text which will show when there is no score. Both image and text will return when no score is generated to result page. 
+Google map is also hidden in result page when no score has been generated. This will limit API requests even more. Errors showing in console
+dissapeared and issue were solved. 
+![Screenshot of Undefined issue in result.html](assets/images/result_noscore.PNG)
