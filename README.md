@@ -160,3 +160,9 @@ and was suggested to add soem webkits which were missing. Added neccessary style
 
 ### Latest
 -	I ran my css code through [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) and no error was found. 
+
+## Javascript
+-	Lighthouse tools suggested me to move all script from head of html pages to bottom of my body to Eliminate render-blocking resources. I soccessfully managed to move all of my scripts with no error occuring, after deploying I tested live. But when I tried to move bootstrapcdn link tag to the end of my body I found out that style did not implement to my html pages. Therefore I ended up by not moving my bootrsrapcdn links from head. This change eliminated render-blockings and performance raised.
+-	I ran my javascript codes through [JSHint](https://jshint.com/) and the test told me to fix some issues. First I started by adding var instead of const in my code and then there were semicolons missing so I also added them. JSHint also told me to not use ”new” as side effects in maps.js, and warned me that google and MarkerClusterer were undefined in the code but since this is copied from Google maps API platform I didn’t need to make any changes there. 
+-	I also recieved warnings for using ES6 & higher. I could ignore them which is fine. Works in all browsers except for Internet Explorer and these warnings are fine because they come from google and other libraries.
+
