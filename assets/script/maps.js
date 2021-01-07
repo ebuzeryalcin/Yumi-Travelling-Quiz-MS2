@@ -17,6 +17,11 @@ function initMap() {
     //Location function, Stackoverflow.com
     function getLocation() {
         var score = localStorage.getItem("scoreStorage");
+        //function which return to quiz page if test has not been made
+        if (!score) {
+            alert("You forgot to make the quiz! Click OK to go back.")
+            return window.location.assign("quiz.html");
+        }
         //Location will be given depending on score
         if (score >= 7 && score <= 13) {
             return naturalLocation;
