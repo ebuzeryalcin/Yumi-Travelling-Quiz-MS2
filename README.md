@@ -192,4 +192,13 @@ Tested this solution and it worked, the issue was solved.
 
 ### Latest
 
--   
+-   While I was making final tests of my project there was something disturbing in quiz page. When I started the quiz and the script was 
+generating first question both Previous button and Next button were showing. It was the first question in quiz, I thought that the 
+Previous button was not neccessary and logically it would not suit well. So since it is the first question and there is no previous question 
+I decided to hide the Previous button to only show after the second question generated. I searched on the internet and found feed which showed how 
+to hide and unhide the Previous button. In the generateQuestions(questionNumber) function I added an if statement with questionNumber === 0 
+in paranthesis so when the first question is shown ,previousButton.style.visibility = 'hidden', will hide the Previous button. Then I added 
+an else statement to ,previousButton.style.visibility = 'visible', to make the Previous button visible after the first question have been 
+answered. This solution to hide Previous button in first question and make it visible thereafter worked and from an user experience angle 
+the quiz buttons is more logic now. This disturbing issue was then solved. 
+![Example of previous button issue](assets/images/previous_button.gif)
