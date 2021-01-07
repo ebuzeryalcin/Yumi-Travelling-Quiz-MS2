@@ -80,11 +80,12 @@ I have utilized the Google Maps API, added marker function and marker clustering
 identifies location on the map. Marker clustering combines number of locations in near area. Depending on score the Javascript function will
 call map and markers, which is in the maps.js file. 
 
-I have restricted the use of Google maps API in the Google Cloud Platform. Because I have three html pages I restricted the API to my last html page
-which is: https://ebuzeryalcin.github.io/Yumi-Travelling-Quiz-MS2/result.html. By making a restriction this should limit which webpages the API
-should accept requests from. I have given an exact path. I have also restricted the google API to Maps Javascript API.
+I have restricted the use of Google maps API in the Google Cloud Platform. Because I have three html pages I've restricted the API to my last html page
+which is: https://ebuzeryalcin.github.io/Yumi-Travelling-Quiz-MS2/result.html. I have also restricted the api for the GitPod preview environment. 
+By making restrictions this should limit which webpages the API
+should accept requests from. I have given an exact path for my deployed site. I have also restricted the google API to Maps Javascript API.
 This can be changed in future on the same platform if needed. 
-![Screenshot of the restrictions page in Google Maps API](assets/images/restrictions_api1.PNG)
+![Screenshot of the restrictions page in Google Maps API](assets/images/restrictions_api.PNG)
 
 Below is an example of the website. You can see:
 1. The Start quiz button to redirect to the Quiz page.
