@@ -131,3 +131,16 @@ These following languages, frameworks and libraries was used to build the websit
 - [Google Fonts](https://fonts.google.com/) - Has been used to style texts on my website, great tool with many fonts to choose between. 
 - [Favicon](https://www.favicon-generator.org/) - Has been used to make my own custom favicon which matches my page logo. 
 
+***
+
+## Testing
+
+Here are the tests I have made on my webpage:
+1.  All of my code have been validated to make sure there are no errors. My HTML code have been validated through [W3 HTML Validator](https://validator.w3.org/).
+The CSS code have been validated through [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) and the Javascript through [JSHint](https://jshint.com/).
+
+### Html
+-	Changed place of script to improve performance from head to bottom of body.
+-	I was suggested by Lighthouse tools to change format of my images from .png to webp. so the page could load faster. I did manage to find an online converter. After converting my images to .webp I could add them to my project.  
+-	Lighthouse suggested me to add aria-labels to button improve accessibility of my website so I added aria-labels to my buttons in my html pages. 
+-	Html validator found that my logo in footer section did not have an alt attribute. Solved by adding alt attributes to every html page.
