@@ -165,4 +165,16 @@ and was suggested to add soem webkits which were missing. Added neccessary style
 -	Lighthouse tools suggested me to move all script from head of html pages to bottom of my body to Eliminate render-blocking resources. I soccessfully managed to move all of my scripts with no error occuring, after deploying I tested live. But when I tried to move bootstrapcdn link tag to the end of my body I found out that style did not implement to my html pages. Therefore I ended up by not moving my bootrsrapcdn links from head. This change eliminated render-blockings and performance raised.
 -	I ran my javascript codes through [JSHint](https://jshint.com/) and the test told me to fix some issues. First I started by adding var instead of const in my code and then there were semicolons missing so I also added them. JSHint also told me to not use ”new” as side effects in maps.js, and warned me that google and MarkerClusterer were undefined in the code but since this is copied from Google maps API platform I didn’t need to make any changes there. 
 -	I also recieved warnings for using ES6 & higher. I could ignore them which is fine. Works in all browsers except for Internet Explorer and these warnings are fine because they come from google and other libraries.
+-	While testing, I found out that the quiz score would not generate to my result.html page. While coding I used to test my project with
+[Visual Studio IDE](https://visualstudio.microsoft.com/). Because of this the script was coded so it could generate score to result.html via localhost url when showing the webpage 
+with live server in Visual Studio IDE. So I needed too make changes in my code. The solution were to change my code on several places. I started by deleting 
+return window.location and added localStorage.setItem instead to store data in script.js. localStorage.setItem was choosen because the stored data has no 
+expiration time, which suited my project. Then I added window.location.assign to my code and added return.html in paranthesis so the data could
+be generated to the result page. Then I deleted all code in getLocation(), recommendation() and getImage() functions in maps.js to replace them with
+localStorage.getItem() instead so it could generate data to the result page. I resolved the issue and when the quiz were finished the score, image and locations on google maps were working as it should. The issue was solved. 
+-   The console displayed an error in script.js telling that there was an uncaught typeError which meant that it could not set property 
+of ’innerHTML’ of null in my home page, index.html. I thought about adding an if statement so the code could generate questions when the 
+'Start Quiz' button in home page had been clicked. Then I realized that I had an script with path to script.js in my index.html page. Since I did not need this 
+script in my index.html code I decided to remove it from the home page and then tested my page. This solved the error and it was removed 
+from console. So by removing script from index.html I was also able to reduce script used. 	
 
