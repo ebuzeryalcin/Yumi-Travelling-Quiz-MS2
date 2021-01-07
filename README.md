@@ -144,3 +144,9 @@ The CSS code have been validated through [Jigsaw CSS Validator](https://jigsaw.w
 -	I was suggested by Lighthouse tools to change format of my images from .png to webp. so the page could load faster. I did manage to find an online converter. After converting my images to .webp I could add them to my project.  
 -	Lighthouse suggested me to add aria-labels to button improve accessibility of my website so I added aria-labels to my buttons in my html pages. 
 -	Html validator found that my logo in footer section did not have an alt attribute. Solved by adding alt attributes to every html page.
+
+### Latest
+-	All my html pages have been tested through [W3 HTML Validator](https://validator.w3.org/), no error was found. 
+-	All my buttons is working corectly. I tested each button on every Html page and no error was shown.
+-	Google maps API on result page works fine. I was able to see marked locations, navigate and view around in the map, change to satellite and zoom in and out.
+-	Social Media links have been tested.  I clicked each link individually which opened a new browser. Every link was working. 
