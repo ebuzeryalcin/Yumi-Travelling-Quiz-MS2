@@ -160,6 +160,9 @@ The CSS code have been validated through [Jigsaw CSS Validator](https://jigsaw.w
 -	All my buttons is working corectly. I tested each button on every Html page and no error was shown.
 -	Google maps API on result page works fine. I was able to see marked locations, navigate and view around in the map, change to satellite and zoom in and out.
 -	Social Media links have been tested.  I clicked each link individually which opened a new browser. Every link was working. 
+-   Favicon was showing error in every html page in console because of manifest.json undefined. I did go back to Favicon webpage and went through
+the tutorial. Deleted old favicon folder and added a new one in assets folder. I then deleted old favicon links from head in my html pages and
+added new links with right paths. I managed to fix error showing in console and the code is working right. 
 
 ## CSS
 -	Lighthouse tools suggested me to remove unused css style. I opened inspect in google chrome so I could inspect unused css code. I started to record the page and there was temporary unused css style. But I noticed that when for example the index.html page was recorded coverage detected that styles for quiz.html and result.html page was not used at that point of recording. The same things occured when I recorded another html page. Since I am using all css styling rules I did not delete any style from style.css. 
