@@ -176,4 +176,16 @@ of ’innerHTML’ of null in my home page, index.html. I thought about adding a
 'Start Quiz' button in home page had been clicked. Then I realized that I had an script with path to script.js in my index.html page. Since I did not need this 
 script in my index.html code I decided to remove it from the home page and then tested my page. This solved the error and it was removed 
 from console. So by removing script from index.html I was also able to reduce script used. 	
+-   While testing result.html I found out that the score container was showing Undefined, because quiz had not been made. This is not a great 
+user experience. Also the image which is displayed depending on result was broken, no image were to be 
+shown which by the way means that the code works well. But this is also not a good user experience. I did not want the page to show anything under score 
+table when the quiz were not made. I could show nothing under score table or show an image or for example write a text to tell that the user must go back 
+and make the quiz. At last I decided to implement an popup which tells that the user forgot to make the quiz. I also wanted the button in the popup alert to 
+redirect the user to the quiz page. I added a timeout so after clicking the button the user would be redirected to the quiz page after 5 seconds. 
+I then added a text under score telling that there is no enough data to give recommendations. Five seconds of timeout time is enough to 
+read the text under score table. In getLocation() function in maps.js I added an if statement to alert a popup message and to return the user back 
+to the quiz page when button is clicked. I used document.getElementById() to hide the recommendation image and to hide the Undefined message 
+I used the same method. Finally I added an setTimeout() function redirecting to the quiz page after 5 seconds, which is enough time to read the message text under score. 
+Tested this solution and it worked, the issue was solved. 
+![Screenshot of Undefined issue in result.html](assets/images/result_undefined.PNG)
 
