@@ -74,6 +74,16 @@ To make my Wireframe I used moqups.com. [Click here to show my Wireframe.](https
  
 ### Existing Features
 
+### Website Features
+
+- Webpage consisting of 3 html pages:
+- Home Page - Introducing the Quiz, including a button redirecting to the Quiz Page. 
+- Quiz Page - Simple and intuitive Quiz consisting 7 questions. Radio button to be clicked to go to next question. A previous, a next button and a Finish button to load previous or next question. Finish question visible in last question, redirecting to Result Page. 
+- Result Page - Displays score and map - Score: Depending on quiz result score shows what type of traveller users are and displays an image, also depending on quiz result. Interactive Map: Displays a google map with 3 travel location recommendations, depending on what kind of traveller users are.  
+- Interactive Map - This map has been created using Google Maps API and tools showing location with markers. The map includes navigation and view around, change to satellite and zoom in and out functions.
+- Social Media - Social media icons showing in footer section in every html page.
+- Responsive webpage - Working in multiple devices and screen sizes, responsive to different types of screen sizes.
+
 [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview?_ga=2.246367876.1606386993.1604865013-774398906.1604748970) & 
 [Markers on the map](https://developers.google.com/maps/documentation/javascript/markers) with [Marker clustering feature](https://developers.google.com/maps/documentation/javascript/marker-clustering): 
 I have utilized the Google Maps API, added marker function and marker clustering function on the map. The marker is a type of overlay and 
