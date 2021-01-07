@@ -19,8 +19,12 @@ function initMap() {
         var score = localStorage.getItem("scoreStorage");
         //function which return to quiz page if test has not been made
         if (!score) {
-            alert("You forgot to make the quiz! Click OK to go back.")
-            return window.location.assign("quiz.html");
+            document.getElementById("resultImage").style.visibility = "hidden";
+            document.getElementById("myScore").innerHTML = "Yumi don't have enough data to give you recommendations.";
+            alert("Yumi: Oops! You forgot to make the Quiz! Click OK and you will be redirected after 5 seconds.")
+            setTimeout(function(){
+            window.location.href = "quiz.html";
+            }, 5000);
         }
         //Location will be given depending on score
         if (score >= 7 && score <= 13) {
