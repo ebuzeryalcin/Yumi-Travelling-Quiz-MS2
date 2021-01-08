@@ -240,3 +240,42 @@ Lighthouse:
 GTMetrix:
 ![GTMetrix score](assets/images/gtmetrix.PNG)
 
+Google Page Speed Insights:
+-   Computer
+
+![Computer](assets/images/googlepagespeedcomputer.PNG)
+
+-   Mobile
+
+![Mobile](assets/images/googlepagespeedmobile.PNG)
+
+
+### Supported Browsers
+
+| Opera | Chrome | Firefox | Edge | Internet Explorer | Safari |
+| ----- | ------ | ------- | ---- | ----------------- | ------ |
+| Y     | Y      | Y       | Y    | N                 | Y      |
+
+** NOTE: Safari Browser was tested using an iPhone 7 plus
+
+** Chrome were also tested with Oneplus device
+
+All browsers were tested by:
+
+- Overall webpage use, tried out the quiz. Results were shown.
+- Clicking all buttons and check if they were functional.
+- Testing social media links, new tab were opened. 
+- Google maps were functioning and all functions were working. 
+- All EmailJS forms were tested by filling out and submitting.
+- Internet Explorer was the only browser that failed  - **This Browser is not supported**
+
+Full list of tested resolutions with & without [Responsivley App](https://responsively.app/):
+
+1. iPhone 5/5se 320px
+2. iPhone X 375px
+3. Oneplus 7 402px
+4. iPhone 7 Plus 414px
+5. Ipad 768px
+6. Generic Laptop 1280px
+7. MacBook Air 1440px
+7. Desktop 1920px
