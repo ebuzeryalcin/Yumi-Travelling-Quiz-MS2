@@ -209,6 +209,7 @@ Tested this solution and it worked, the issue was solved.
 
 ### Latest
 
+-   These are latest JSHint reports - [Script.js report](assets/images/jshint_script.PNG), [Maps.js report](assets/images/jshint_maps.PNG). Fixes have been made as written above, some warnings still remains.
 -   While I was making final tests of my project there was something disturbing in quiz page. When I started the quiz and the script was 
 generating first question both Previous button and Next button were showing. It was the first question in quiz, I thought that the 
 Previous button was not neccessary and logically it would not suit well. So since it is the first question and there is no previous question 

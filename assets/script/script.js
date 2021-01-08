@@ -52,10 +52,10 @@ var questions = [
 ];
 
 //Counter and question identifier
-let currentQuestion = 0;
-let score = [];
+var currentQuestion = 0;
+var score = [];
 var totalQuestions = questions.length;
-let maxScore = 0;
+var maxScore = 0;
 
 //variables which gives easy accessability to html elements by using querySelector
 var questionEl = document.querySelector('.question');
