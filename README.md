@@ -139,7 +139,7 @@ These following languages, frameworks and libraries was used to build the websit
 - [Bootstrap](https://getbootstrap.com/) - Has been used to build sections in html pages, creating buttons and which also gives flexibility to modify style depending on desire. 
 - [FontAwesome](https://fontawesome.com/) - Has been used to add icons. Mainly used to add social media icons. 
 - [Google Fonts](https://fonts.google.com/) - Has been used to style texts on my website, great tool with many fonts to choose between. 
-- [Favicon](https://www.favicon-generator.org/) - Has been used to make my own custom favicon which matches my page logo.
+- [Favicon](https://favicon.io/) - Has been used to make my own custom favicon which matches my page logo.
 - [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview?_ga=2.246367876.1606386993.1604865013-774398906.1604748970) - Has been used to implement Google Maps to the website. 
 
 ## Workspace
@@ -297,7 +297,7 @@ Full list of tested resolutions with & without [Responsivley App](https://respon
 - [WebP Converter](https://cloudconvert.com/webp-converter) - Used for my website to compress my images and allow faster loading speed.
 - [GIF Maker](https://gifmaker.me/) - Used to create gifs.
 - [Font Awesome](https://fontawesome.com/) - Used to provide small icons for the website. eg. Testimonial quotes section.
-- [Stack Overflow](https://fonts.google.com/) - Useful resources and giving inspirations. 
+- [Stack Overflow](https://stackoverflow.com/) - Useful resources and giving inspirations. 
 - [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Used to test the loading speed of the website.
 - [GTMetrix](https://gtmetrix.com/) - Used to test speed of the website.
 - [Responsivley App](https://responsively.app/) - Used to test responsiveness.
@@ -314,4 +314,28 @@ Full list of tested resolutions with & without [Responsivley App](https://respon
 - [Google Maps API](https://cloud.google.com/maps-platform/maps?utm_source=google&utm_medium=cpc&utm_campaign=FY20-Q3-global-demandgen-displayonnetworkhouseads-cs-GMP_maps_contactsal_saf_v2&utm_content=text-ad-none-none-DEV_c-CRE_434785623332-ADGP_Hybrid%20%7C%20AW%20SEM%20%7C%20BKWS%20~%20Brand%20%7C%20EXA%20%7C%20Google%20Maps%20API-KWID_43700053663474825-aud-903284319780%3Akwd-335425467-userloc_1012229&utm_term=KW_google%20maps%20api-ST_google%20maps%20api&gclid=CjwKCAiAouD_BRBIEiwALhJH6E15Y-Nn2O68tmYGp2HS293d2-lXCrWVknLbzQ6AjkQ0e36FPnaOFxoCxqEQAvD_BwE) - Used to implement the Google map.
 
 ---
+
+## Deployment
+
+### Deploy
+
+This project has been deployed on GitHub Pages [Here](https://ebuzeryalcin.github.io/Yumi-Travelling-Quiz-MS2/).
+
+- Select the repository on GitHub for this project where all the code is stored.
+- Then click the Settings link at the top with the cogwheel icon next to it.
+- Scroll down till reaching the GitHub Pages Heading.
+- Locate the source section and click on the branch master then select the master branch.
+- This will then publish the project to GitHub Pages and display the URL of the live website. (may have to refresh and scroll back to this 
+section to see the URL)
+- The deployed website version will be tracked to your last commit so if you have made changes without committing and pushing them to GitHub 
+those changes will not be live.
+
+---
+
+## Credits
+
+- First of all I want to thank my mentor Felipe Alarcon for guidance and advice on how to get this project ready for submission. Felipe is not only a mentor, but also very good at motivating.
+- Code institute for providing the content and support to help learn and develop my skills.
+- Code institute student support. 
+- Code Institute slack community and members for all help, ideas & feedback.
 
