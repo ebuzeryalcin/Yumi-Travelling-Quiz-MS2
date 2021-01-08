@@ -86,7 +86,7 @@ To make my Wireframe I used moqups.com. [Click here to show my Wireframe.](https
 
 [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview?_ga=2.246367876.1606386993.1604865013-774398906.1604748970) & 
 [Markers on the map](https://developers.google.com/maps/documentation/javascript/markers) with [Marker clustering feature](https://developers.google.com/maps/documentation/javascript/marker-clustering): 
-I have utilized the Google Maps API, added marker function and marker clustering function on the map. The marker is a type of overlay and 
+API key is created. I have utilized the Google Maps API, added marker function and marker clustering function on the map. The marker is a type of overlay and 
 identifies location on the map. Marker clustering combines number of locations in near area. Depending on score the Javascript function will
 call map and markers, which is in the maps.js file. 
 
@@ -106,7 +106,7 @@ Below is an example of the website. You can see:
 6. The result page which shows latest score and image depending on the result.
 7. The google map which shows three locations depending on whether you are a nature lover or a city lover.
 
-![Example of how to use website site](assets/images/webpage-example.gif)
+![Example of how to use website site](assets/images/webpage_example.gif)
 
 ### Features Left to Implement
 
@@ -139,7 +139,8 @@ These following languages, frameworks and libraries was used to build the websit
 - [Bootstrap](https://getbootstrap.com/) - Has been used to build sections in html pages, creating buttons and which also gives flexibility to modify style depending on desire. 
 - [FontAwesome](https://fontawesome.com/) - Has been used to add icons. Mainly used to add social media icons. 
 - [Google Fonts](https://fonts.google.com/) - Has been used to style texts on my website, great tool with many fonts to choose between. 
-- [Favicon](https://www.favicon-generator.org/) - Has been used to make my own custom favicon which matches my page logo. 
+- [Favicon](https://www.favicon-generator.org/) - Has been used to make my own custom favicon which matches my page logo.
+- [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview?_ga=2.246367876.1606386993.1604865013-774398906.1604748970) - Has been used to implement Google Maps to the website. 
 
 ***
 
@@ -157,6 +158,7 @@ The CSS code have been validated through [Jigsaw CSS Validator](https://jigsaw.w
 
 ### Latest
 -	All my html pages have been tested through [W3 HTML Validator](https://validator.w3.org/), no error was found. 
+-   W3 HTML Validator - [index.html report](assets/images/index_w3v.PNG), 
 -	All my buttons is working corectly. I tested each button on every Html page and no error was shown.
 -	Google maps API on result page works fine. I was able to see marked locations, navigate and view around in the map, change to satellite and zoom in and out.
 -	Social Media links have been tested.  I clicked each link individually which opened a new browser. Every link was working. 
