@@ -158,7 +158,7 @@ The CSS code have been validated through [Jigsaw CSS Validator](https://jigsaw.w
 
 ### Latest
 -	All my html pages have been tested through [W3 HTML Validator](https://validator.w3.org/), no error was found. 
--   W3 HTML Validator - [index.html report](assets/images/index_w3v.PNG), 
+-   W3 HTML Validator - [index.html report](assets/images/index_w3v.PNG), [quiz.html report](assets/images/quiz_w3v.PNG), [result.html report](assets/images/result_w3v.PNG).
 -	All my buttons is working corectly. I tested each button on every Html page and no error was shown.
 -	Google maps API on result page works fine. I was able to see marked locations, navigate and view around in the map, change to satellite and zoom in and out.
 -	Social Media links have been tested.  I clicked each link individually which opened a new browser. Every link was working. 
@@ -169,12 +169,14 @@ added new links with right paths. I managed to fix error showing in console and 
 ## CSS
 -	Lighthouse tools suggested me to remove unused css style. I opened inspect in google chrome so I could inspect unused css code. I started to record the page and there was temporary unused css style. But I noticed that when for example the index.html page was recorded coverage detected that styles for quiz.html and result.html page was not used at that point of recording. The same things occured when I recorded another html page. Since I am using all css styling rules I did not delete any style from style.css. 
 -	I ran my CSS code through [Auto Prefixer CSS](https://autoprefixer.github.io)
-and was suggested to add soem webkits which were missing. Added neccessary style to my CSS code. 
+and was suggested to add prefixes used by major browsers which were missing. Added neccessary style to my CSS code. 
 -	Fixed the background image issue which wouldn’t show in my html pages. I used a relative link for my background image. Because I was inside my css file, the code was looking for the image file at the same place. To solve this issue I needed to go back, added two dots to its path to find my actual image folder and then find my background image. This is how it looked when finished: url(../images/uzay7.jpg), note that the image file is converted to .webp now. 
 -	My webpage were overflowing because of style in background image in css. I was able to fix this issue by changing min-width style 100%. The overflowing issue was solved.
 
 ### Latest
--	I ran my css code through [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) and no error was found. 
+-	I ran my css code through [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) and no error was found but warnings about prefixes used by major
+browsers as commented above. Since prefixes are beneficial for my CSS code I did not remove them. 
+-   W3 HTML Validator - [CSS report](assets/images/css_jigsaw.PNG), [CSS warning report](assets/images/css2_jigsaw.PNG).
 
 ## Javascript
 -	Lighthouse tools suggested me to move all script from head of html pages to bottom of my body to Eliminate render-blocking resources. I soccessfully managed to move all of my scripts with no error occuring, after deploying I tested live. But when I tried to move bootstrapcdn link tag to the end of my body I found out that style did not implement to my html pages. Therefore I ended up by not moving my bootrsrapcdn links from head. This change eliminated render-blockings and performance raised.
