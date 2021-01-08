@@ -295,6 +295,7 @@ Full list of tested resolutions with & without [Responsivley App](https://respon
 - [W3C HTML Validator](https://validator.w3.org/) - Used to test/validate HTML code on the website.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to test/validate the CSS code on the website.
 - [WebP Converter](https://cloudconvert.com/webp-converter) - Used for my website to compress my images and allow faster loading speed.
+- [GIF Maker](https://gifmaker.me/) - Used to create gifs.
 - [Font Awesome](https://fontawesome.com/) - Used to provide small icons for the website. eg. Testimonial quotes section.
 - [Stack Overflow](https://fonts.google.com/) - Useful resources and giving inspirations. 
 - [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Used to test the loading speed of the website.
