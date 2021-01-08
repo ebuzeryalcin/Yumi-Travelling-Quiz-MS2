@@ -142,6 +142,12 @@ These following languages, frameworks and libraries was used to build the websit
 - [Favicon](https://www.favicon-generator.org/) - Has been used to make my own custom favicon which matches my page logo.
 - [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview?_ga=2.246367876.1606386993.1604865013-774398906.1604748970) - Has been used to implement Google Maps to the website. 
 
+## Workspace
+
+- [VSCode](https://code.visualstudio.com/)
+- [Gitpod](https://www.gitpod.io/)
+- [GitHub](https://github.com/)
+
 ***
 
 ## Testing
@@ -213,7 +219,7 @@ Tested this solution and it worked, the issue was solved.
 -   While I was making final tests of my project there was something disturbing in quiz page. When I started the quiz and the script was 
 generating first question both Previous button and Next button were showing. It was the first question in quiz, I thought that the 
 Previous button was not neccessary and logically it would not suit well. So since it is the first question and there is no previous question 
-I decided to hide the Previous button to only show after the second question generated. I searched on the internet and found feed which showed how 
+I decided to hide the Previous button to only show after the second question generated. I searched on the [internet](https://stackoverflow.com/questions/9075440/javascript-button-show-hide-on-text-changed) and found feed which showed how 
 to hide and unhide the Previous button. In the generateQuestions(questionNumber) function I added an if statement with questionNumber === 0 
 in paranthesis so when the first question is shown ,previousButton.style.visibility = 'hidden', will hide the Previous button. Then I added 
 an else statement to ,previousButton.style.visibility = 'visible', to make the Previous button visible after the first question have been 
@@ -279,3 +285,32 @@ Full list of tested resolutions with & without [Responsivley App](https://respon
 6. Generic Laptop 1280px
 7. MacBook Air 1440px
 7. Desktop 1920px
+
+---
+
+## External Resources
+
+- [Google Fonts](https://fonts.google.com/) - Used to import fonts for the website.
+- [JSHint](https://jshint.com/) - Used to test/validate JavaScript Code.
+- [W3C HTML Validator](https://validator.w3.org/) - Used to test/validate HTML code on the website.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to test/validate the CSS code on the website.
+- [WebP Converter](https://cloudconvert.com/webp-converter) - Used for my website to compress my images and allow faster loading speed.
+- [Font Awesome](https://fontawesome.com/) - Used to provide small icons for the website. eg. Testimonial quotes section.
+- [Stack Overflow](https://fonts.google.com/) - Useful resources and giving inspirations. 
+- [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Used to test the loading speed of the website.
+- [GTMetrix](https://gtmetrix.com/) - Used to test speed of the website.
+- [Responsivley App](https://responsively.app/) - Used to test responsiveness.
+- [Favicon](https://favicon.io/) - Used to create my favicon image.
+- [W3 Schools](https://www.w3schools.com/) - Used for general resource.
+- [Moqups](https://moqups.com/) - Used to create my wireframe.
+- [Youtube](https://www.youtube.com/) - Used as a general resource for help with code, how to use Google maps API.
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used to check accessabilty and SEO scores for the website.
+- [Code Institute](https://codeinstitute.net/) - Main source of coding knowledge.
+- Code institute Slack Community - Used to look at some milestone projects for inspiration.
+- [khaledkzy converter](https://khaledkzy.github.io/pixel-vh-vw-converter/) - Used to convert.
+- [Bootstrap](https://getbootstrap.com/) - Used general build of the Webpage.
+- [Logomakr](https://logomakr.com/) - Used to create my logo.
+- [Google Maps API](https://cloud.google.com/maps-platform/maps?utm_source=google&utm_medium=cpc&utm_campaign=FY20-Q3-global-demandgen-displayonnetworkhouseads-cs-GMP_maps_contactsal_saf_v2&utm_content=text-ad-none-none-DEV_c-CRE_434785623332-ADGP_Hybrid%20%7C%20AW%20SEM%20%7C%20BKWS%20~%20Brand%20%7C%20EXA%20%7C%20Google%20Maps%20API-KWID_43700053663474825-aud-903284319780%3Akwd-335425467-userloc_1012229&utm_term=KW_google%20maps%20api-ST_google%20maps%20api&gclid=CjwKCAiAouD_BRBIEiwALhJH6E15Y-Nn2O68tmYGp2HS293d2-lXCrWVknLbzQ6AjkQ0e36FPnaOFxoCxqEQAvD_BwE) - Used to implement the Google map.
+
+---
+
