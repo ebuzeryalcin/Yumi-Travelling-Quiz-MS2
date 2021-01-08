@@ -228,3 +228,15 @@ Finally I added a text which will show when there is no score. Both image and te
 Google map is also hidden in result page when no score has been generated. This will limit API requests even more. Errors showing in console
 dissapeared and issue were solved. 
 ![Screenshot of Undefined issue in result.html](assets/images/result_noscore.PNG)
+
+### Further tests and scores
+
+Lighthouse:
+-   Before, [Lighthouse before summary document](assets/images/Lighthouse-Report-summary-before.pdf)
+![Lighthouse before score](assets/images/lighthouse_before.PNG)
+-   After, [Lighthouse after summary document](assets/images/Lighthouse-Report-summary-after.pdf)
+![Lighthouse before score](assets/images/lighthouse_after.PNG)
+
+GTMetrix:
+![GTMetrix score](assets/images/gtmetrix.PNG)
+
