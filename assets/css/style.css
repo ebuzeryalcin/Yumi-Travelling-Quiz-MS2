@@ -11,7 +11,7 @@ body{
     font-weight: 100;
     line-height: 1.7rem;
     background-image:url(../images/uzay7.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     min-width: 100%; 
 }
@@ -127,9 +127,33 @@ h1{
 }
 
 /*Footer*/
-footer{
-    color: #fff;
-    padding-top: 2rem;
+  @media only screen and (min-width: 683px) {
+    footer{
+      color: #fff;
+      padding-top: 2rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 0px 0px;
+      padding-top: 10px;
+      margin-top: 30px;
+      font-weight: 100;
+      clear: both;
+    }
+  }
+
+  @media only screen and (max-width: 682px) {
+    footer{
+      color: #fff;
+      padding-top: 2rem;
+      bottom: 0;
+      width: 100%;
+      padding: 0px 0px;
+      padding-top: 10px;
+      margin-top: 30px;
+      font-weight: 100;
+      clear: both;
+    }
   }
 
 .social a{
